@@ -1,0 +1,495 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Oqtane
+build_property.RootNamespace = Oqtane
+build_property.ProjectDir = C:\AppBuild\Oqtane.Framework\Oqtane.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\AppBuild\Oqtane.Framework\Oqtane.Client
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Installer/Controls/LocalDBConfig.razor]
+build_metadata.AdditionalFiles.TargetPath = SW5zdGFsbGVyXENvbnRyb2xzXExvY2FsREJDb25maWcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Installer/Controls/MySQLConfig.razor]
+build_metadata.AdditionalFiles.TargetPath = SW5zdGFsbGVyXENvbnRyb2xzXE15U1FMQ29uZmlnLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Installer/Controls/PostgreSQLConfig.razor]
+build_metadata.AdditionalFiles.TargetPath = SW5zdGFsbGVyXENvbnRyb2xzXFBvc3RncmVTUUxDb25maWcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Installer/Controls/SqliteConfig.razor]
+build_metadata.AdditionalFiles.TargetPath = SW5zdGFsbGVyXENvbnRyb2xzXFNxbGl0ZUNvbmZpZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Installer/Controls/SqlServerConfig.razor]
+build_metadata.AdditionalFiles.TargetPath = SW5zdGFsbGVyXENvbnRyb2xzXFNxbFNlcnZlckNvbmZpZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Installer/Installer.razor]
+build_metadata.AdditionalFiles.TargetPath = SW5zdGFsbGVyXEluc3RhbGxlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Dashboard/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxEYXNoYm9hcmRcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Error/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxFcnJvclxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Files/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxGaWxlc1xBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Files/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxGaWxlc1xEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Files/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxGaWxlc1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Files/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxGaWxlc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Jobs/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxKb2JzXEVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Jobs/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxKb2JzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Jobs/Log.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxKb2JzXExvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Languages/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxMYW5ndWFnZXNcQWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Languages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxMYW5ndWFnZXNcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Languages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxMYW5ndWFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Login/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxMb2dpblxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Logs/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxMb2dzXERldGFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Logs/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxMb2dzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/ModuleDefinitions/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxNb2R1bGVEZWZpbml0aW9uc1xBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/ModuleDefinitions/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxNb2R1bGVEZWZpbml0aW9uc1xDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/ModuleDefinitions/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxNb2R1bGVEZWZpbml0aW9uc1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/ModuleDefinitions/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxNb2R1bGVEZWZpbml0aW9uc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Modules/Export.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxNb2R1bGVzXEV4cG9ydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Modules/Import.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxNb2R1bGVzXEltcG9ydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Modules/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxNb2R1bGVzXFNldHRpbmdzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Pages/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxQYWdlc1xBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Pages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxQYWdlc1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxQYWdlc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Profiles/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxQcm9maWxlc1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Profiles/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxQcm9maWxlc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/RecycleBin/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxSZWN5Y2xlQmluXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Register/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxSZWdpc3RlclxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Reset/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxSZXNldFxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Roles/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxSb2xlc1xBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Roles/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxSb2xlc1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Roles/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxSb2xlc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Roles/Users.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxSb2xlc1xVc2Vycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/SearchResults/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxTZWFyY2hSZXN1bHRzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/SearchResults/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxTZWFyY2hSZXN1bHRzXFNldHRpbmdzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Search/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxTZWFyY2hcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Sites/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxTaXRlc1xBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Sites/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxTaXRlc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Site/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxTaXRlXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Sql/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxTcWxcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/SystemInfo/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxTeXN0ZW1JbmZvXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Themes/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxUaGVtZXNcQWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Themes/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxUaGVtZXNcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Themes/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxUaGVtZXNcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Themes/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxUaGVtZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Upgrade/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVcGdyYWRlXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/UrlMappings/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVcmxNYXBwaW5nc1xBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/UrlMappings/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVcmxNYXBwaW5nc1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/UrlMappings/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVcmxNYXBwaW5nc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/UserProfile/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVc2VyUHJvZmlsZVxBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/UserProfile/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVc2VyUHJvZmlsZVxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/UserProfile/View.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVc2VyUHJvZmlsZVxWaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Users/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVc2Vyc1xBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Users/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVc2Vyc1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Users/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVc2Vyc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Users/Roles.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVc2Vyc1xSb2xlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Users/Users.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxVc2Vyc1xVc2Vycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Visitors/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxWaXNpdG9yc1xEZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Admin/Visitors/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xBZG1pblxWaXNpdG9yc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/ActionDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xBY3Rpb25EaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/ActionLink.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xBY3Rpb25MaW5rLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/AuditInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xBdWRpdEluZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/AutoComplete.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xBdXRvQ29tcGxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/FileManager.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xGaWxlTWFuYWdlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/InputList.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xJbnB1dExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/Label.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xMYWJlbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/ModuleMessage.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xNb2R1bGVNZXNzYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/Pager.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xQYWdlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/PermissionGrid.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xQZXJtaXNzaW9uR3JpZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/QuillJSTextEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xRdWlsbEpTVGV4dEVkaXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/RichTextEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xSaWNoVGV4dEVkaXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/Section.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xTZWN0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/TabPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xUYWJQYW5lbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/TabStrip.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xUYWJTdHJpcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/TextAreaTextEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xUZXh0QXJlYVRleHRFZGl0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/Controls/TriStateCheckBox.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xDb250cm9sc1xUcmlTdGF0ZUNoZWNrQm94LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/HtmlText/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xIdG1sVGV4dFxFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Modules/HtmlText/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xIdG1sVGV4dFxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/AdminContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXEFkbWluQ29udGFpbmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/BlazorTheme/Containers/Container.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXEJsYXpvclRoZW1lXENvbnRhaW5lcnNcQ29udGFpbmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/BlazorTheme/Themes/Default.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXEJsYXpvclRoZW1lXFRoZW1lc1xEZWZhdWx0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Container/ModuleActions.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXENvbnRhaW5lclxNb2R1bGVBY3Rpb25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Container/ModuleActionsInteractive.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXENvbnRhaW5lclxNb2R1bGVBY3Rpb25zSW50ZXJhY3RpdmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Container/ModuleTitle.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXENvbnRhaW5lclxNb2R1bGVUaXRsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/Breadcrumbs.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXEJyZWFkY3J1bWJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/ControlPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXENvbnRyb2xQYW5lbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/ControlPanelInteractive.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXENvbnRyb2xQYW5lbEludGVyYWN0aXZlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/LanguageSwitcher.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXExhbmd1YWdlU3dpdGNoZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXExvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/Logo.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXExvZ28ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/Menu.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXE1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/MenuHorizontal.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXE1lbnVIb3Jpem9udGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/MenuItemsHorizontal.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXE1lbnVJdGVtc0hvcml6b250YWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/MenuItemsVertical.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXE1lbnVJdGVtc1ZlcnRpY2FsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/MenuVertical.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXE1lbnVWZXJ0aWNhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXFNlYXJjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/Controls/Theme/UserProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXENvbnRyb2xzXFRoZW1lXFVzZXJQcm9maWxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/DefaultContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXERlZmF1bHRDb250YWluZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/OqtaneTheme/Containers/Container.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXE9xdGFuZVRoZW1lXENvbnRhaW5lcnNcQ29udGFpbmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/OqtaneTheme/Containers/ContainerSettings.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXE9xdGFuZVRoZW1lXENvbnRhaW5lcnNcQ29udGFpbmVyU2V0dGluZ3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/OqtaneTheme/Themes/Default.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXE9xdGFuZVRoZW1lXFRoZW1lc1xEZWZhdWx0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/Themes/OqtaneTheme/Themes/ThemeSettings.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXE9xdGFuZVRoZW1lXFRoZW1lc1xUaGVtZVNldHRpbmdzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/UI/ContainerBuilder.razor]
+build_metadata.AdditionalFiles.TargetPath = VUlcQ29udGFpbmVyQnVpbGRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/UI/Head.razor]
+build_metadata.AdditionalFiles.TargetPath = VUlcSGVhZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/UI/ModuleInstance.razor]
+build_metadata.AdditionalFiles.TargetPath = VUlcTW9kdWxlSW5zdGFuY2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/UI/Pane.razor]
+build_metadata.AdditionalFiles.TargetPath = VUlcUGFuZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/UI/RenderModeBoundary.razor]
+build_metadata.AdditionalFiles.TargetPath = VUlcUmVuZGVyTW9kZUJvdW5kYXJ5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/UI/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = VUlcUm91dGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/UI/SiteRouter.razor]
+build_metadata.AdditionalFiles.TargetPath = VUlcU2l0ZVJvdXRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/UI/ThemeBuilder.razor]
+build_metadata.AdditionalFiles.TargetPath = VUlcVGhlbWVCdWlsZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AppBuild/Oqtane.Framework/Oqtane.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

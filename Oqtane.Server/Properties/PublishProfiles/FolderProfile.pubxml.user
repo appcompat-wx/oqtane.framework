@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\publish\source\oqtane.framework\Oqtane.Server\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-08-15T02:13:02.0987467Z||;False|2024-08-14T19:11:55.4931211-07:00||;False|2024-08-14T19:07:26.8124255-07:00||;True|2024-08-14T18:50:09.8349683-07:00||;False|2024-08-14T18:46:31.1397793-07:00||;False|2024-08-14T18:44:52.4114192-07:00||;False|2024-08-14T18:35:00.1912096-07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

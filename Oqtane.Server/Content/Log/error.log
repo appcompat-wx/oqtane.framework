@@ -1,0 +1,386 @@
+[2024-08-15 01:39:17+00:00] [Error] [Oqtane.Infrastructure.NotificationJob] An Error Occurred Starting Scheduled Job: Notification Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.StartAsync(CancellationToken cancellationToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 217 
+[2024-08-15 01:39:17+00:00] [Error] [Oqtane.Infrastructure.PurgeJob] An Error Occurred Starting Scheduled Job: Purge Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.StartAsync(CancellationToken cancellationToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 217 
+[2024-08-15 01:39:17+00:00] [Error] [Oqtane.Infrastructure.NotificationJob] An Error Occurred Executing Scheduled Job: Notification Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:39:17+00:00] [Error] [Oqtane.Infrastructure.SearchIndexJob] An Error Occurred Starting Scheduled Job: Search Index Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.StartAsync(CancellationToken cancellationToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 217 
+[2024-08-15 01:39:17+00:00] [Error] [Oqtane.Infrastructure.PurgeJob] An Error Occurred Executing Scheduled Job: Purge Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:39:17+00:00] [Error] [Oqtane.Infrastructure.SearchIndexJob] An Error Occurred Executing Scheduled Job: Search Index Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:40:17+00:00] [Error] [Oqtane.Infrastructure.NotificationJob] An Error Occurred Executing Scheduled Job: Notification Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:40:17+00:00] [Error] [Oqtane.Infrastructure.PurgeJob] An Error Occurred Executing Scheduled Job: Purge Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:40:17+00:00] [Error] [Oqtane.Infrastructure.SearchIndexJob] An Error Occurred Executing Scheduled Job: Search Index Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:41:07+00:00] [Error] [Oqtane.Infrastructure.DatabaseManager] The Database Provider Oqtane.Database.SqlServer.SqlServerDatabase, Oqtane.Database.SqlServer Does Not Exist. If This Is A Development Environment Please Ensure You Have Performed A Full Compilation Of All Projects In The Oqtane Solution Prior To Running The Application. 
+[2024-08-15 01:41:17+00:00] [Error] [Oqtane.Infrastructure.NotificationJob] An Error Occurred Executing Scheduled Job: Notification Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:41:17+00:00] [Error] [Oqtane.Infrastructure.PurgeJob] An Error Occurred Executing Scheduled Job: Purge Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:41:17+00:00] [Error] [Oqtane.Infrastructure.SearchIndexJob] An Error Occurred Executing Scheduled Job: Search Index Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:42:17+00:00] [Error] [Oqtane.Infrastructure.NotificationJob] An Error Occurred Executing Scheduled Job: Notification Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:42:18+00:00] [Error] [Oqtane.Infrastructure.SearchIndexJob] An Error Occurred Executing Scheduled Job: Search Index Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:58:54+00:00] [Error] [Oqtane.Infrastructure.NotificationJob] An Error Occurred Starting Scheduled Job: Notification Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.StartAsync(CancellationToken cancellationToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 217 
+[2024-08-15 01:58:54+00:00] [Error] [Oqtane.Infrastructure.PurgeJob] An Error Occurred Starting Scheduled Job: Purge Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.StartAsync(CancellationToken cancellationToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 217 
+[2024-08-15 01:58:54+00:00] [Error] [Oqtane.Infrastructure.NotificationJob] An Error Occurred Executing Scheduled Job: Notification Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:58:54+00:00] [Error] [Oqtane.Infrastructure.SearchIndexJob] An Error Occurred Starting Scheduled Job: Search Index Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.StartAsync(CancellationToken cancellationToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 217 
+[2024-08-15 01:58:54+00:00] [Error] [Oqtane.Infrastructure.SearchIndexJob] An Error Occurred Executing Scheduled Job: Search Index Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:59:54+00:00] [Error] [Oqtane.Infrastructure.NotificationJob] An Error Occurred Executing Scheduled Job: Notification Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 01:59:55+00:00] [Error] [Oqtane.Infrastructure.SearchIndexJob] An Error Occurred Executing Scheduled Job: Search Index Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 02:00:14+00:00] [Error] [Oqtane.Infrastructure.DatabaseManager] The Database Provider Oqtane.Database.SqlServer.SqlServerDatabase, Oqtane.Database.SqlServer Does Not Exist. If This Is A Development Environment Please Ensure You Have Performed A Full Compilation Of All Projects In The Oqtane Solution Prior To Running The Application. 
+[2024-08-15 02:00:55+00:00] [Error] [Oqtane.Infrastructure.NotificationJob] An Error Occurred Executing Scheduled Job: Notification Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 02:00:55+00:00] [Error] [Oqtane.Infrastructure.PurgeJob] An Error Occurred Executing Scheduled Job: Purge Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 
+[2024-08-15 02:00:55+00:00] [Error] [Oqtane.Infrastructure.SearchIndexJob] An Error Occurred Executing Scheduled Job: Search Index Job - System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at Oqtane.Repository.MasterDBContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\Context\MasterDBContext.cs:line 54
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Oqtane.Repository.JobRepository.<GetJobs>b__3_0(ICacheEntry entry) in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 26
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreate[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at Oqtane.Repository.JobRepository.GetJobs() in C:\publish\source\oqtane.framework\Oqtane.Server\Repository\JobRepository.cs:line 23
+   at Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(CancellationToken stoppingToken) in C:\publish\source\oqtane.framework\Oqtane.Server\Infrastructure\Jobs\HostedServiceBase.cs:line 67 

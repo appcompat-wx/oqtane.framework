@@ -1,0 +1,257 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Client\\Oqtane.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Client\\Oqtane.Client.csproj": {
+      "version": "5.2.1",
+      "restore": {
+        "projectUniqueName": "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Client\\Oqtane.Client.csproj",
+        "projectName": "Oqtane.Client",
+        "projectPath": "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Client\\Oqtane.Client.csproj",
+        "packagesPath": "C:\\Users\\appcompat\\.nuget\\packages\\",
+        "outputPath": "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\appcompat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://grpc.jfrog.io/grpc/api/nuget/v3/grpc-nuget-dev": {},
+          "https://pkgs.dev.azure.com/dnceng/internal/_packaging/10.0.103-servicing.26075.103-shipping/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/internal/_packaging/11.0.100-preview.1.26081.107-shipping/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/internal/_packaging/8.0.418-servicing.26072.3-shipping/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/internal/_packaging/9.0.311-servicing.26068.14-shipping/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet10/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet11/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet7/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet9/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Shared\\Oqtane.Shared.csproj": {
+                "projectPath": "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Shared\\Oqtane.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "11.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Localization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[11.0.0-preview.1.26081.107, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-preview.1.26081.107/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Shared\\Oqtane.Shared.csproj": {
+      "version": "5.2.1",
+      "restore": {
+        "projectUniqueName": "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Shared\\Oqtane.Shared.csproj",
+        "projectName": "Oqtane.Shared",
+        "projectPath": "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Shared\\Oqtane.Shared.csproj",
+        "packagesPath": "C:\\Users\\appcompat\\.nuget\\packages\\",
+        "outputPath": "C:\\AppBuild\\Oqtane.Framework\\Oqtane.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\appcompat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://grpc.jfrog.io/grpc/api/nuget/v3/grpc-nuget-dev": {},
+          "https://pkgs.dev.azure.com/dnceng/internal/_packaging/10.0.103-servicing.26075.103-shipping/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/internal/_packaging/11.0.100-preview.1.26081.107-shipping/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/internal/_packaging/8.0.418-servicing.26072.3-shipping/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/internal/_packaging/9.0.311-servicing.26068.14-shipping/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet10/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet11/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet7/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet9/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "11.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-preview.1.26081.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
